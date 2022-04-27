@@ -1,0 +1,307 @@
+/* font-family: 'Bree Serif', serif;
+font-family: 'Cinzel', serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Nunito', sans-serif; */
+body {
+    font-family: 'Nunito', sans-serif;
+    background-image: url("images/pexels-photo-220182.jpeg");
+    --nav-height: 100px;
+    padding-top: var(--nav-height);
+}
+
+#parent-div {
+    background: #EEEEEE;
+    width: 80%;
+    margin: auto;
+}
+
+/* --------------------------> Navigation Bar Styling <--------------------------*/
+.nav-area {
+    top: 0px;
+    position: fixed; 
+    border: 1px solid black;
+    background-color: #11324D;
+    text-align: center;
+    width: 80%;
+    z-index: 1;
+    height: var(--nav-height);
+    box-shadow: 0 0 10px #00000033;
+    transition: transform 0.2s;
+}
+
+.nav-hidden {
+    transform: translateY(calc(-1 * var(--nav-height)));
+    box-shadow: none;
+}
+
+.nav-links {
+    padding: 30px 0px 20px 0px;
+}
+
+.nav-links > li {
+    font-size: 25px;
+    font-family: 'Cinzel', serif;
+    display: inline;
+    margin: 0px 20px 0px 20px;
+}
+
+.nav-links > li > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* --------------------------> Header Section Styling <--------------------------*/
+#header {
+    background-image: url("images/clement-helardot-95YRwf6CNw8-unsplash.jpg");
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-txt {
+    text-align: center;
+    color: aqua;
+    font-size: 50px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 5px;
+}
+
+/* --------------------------> About Me Section Styling <--------------------------*/
+#about-me {
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-sec {
+    height: 70%;
+    width: 40%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-txt {
+    padding: 50px;
+}
+
+.about-me-hdr {
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+}
+
+
+
+.about-me-paragraph {
+    font-family: 'Dancing Script', cursive;
+    font-size: x-large;
+    text-align: center;
+}
+
+.img-sec {
+    height: 70%;
+    width: 40%;
+    background-color: #87A7B3;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-pic {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+/* --------------------------> About Me Section Styling <--------------------------*/
+#technical-skills {
+    background-color: #87A7B3;
+    padding: 20px 0px 100px 0px;
+}
+
+#technical-skills > div {
+    padding: 20px;
+    width: 90%;
+    margin: 80px auto 0 auto;
+    text-align: center;
+}
+
+.skills-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3em;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.skills-layout > div {
+    border: solid;
+    height: 600px;
+    background-color: #EEEEEE;
+    position: relative;
+}
+
+.skills-layout > div:hover {
+    border-color: yellow;
+}
+
+.skill-header {
+    padding: 10px;
+}
+
+.skills-lst > li {
+    display: block;
+    color: #0F0E0E;
+    padding: 10px;
+}
+
+.progress {
+    position: relative;
+    width: 210px;
+    height: 15px;
+    background: lightblue;
+    border-radius: 5px;
+    margin: auto
+}
+
+.progress__fill {
+    background-color: #5463FF;
+}
+
+.progress__text {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    font: bold 14px 'Quicksand' sans-serif;
+    color: black;
+}
+
+
+/* --------------------------> Contact Me Section Styling <--------------------------*/
+#project-section {
+    height: 800px;
+
+}
+
+
+/* --------------------------> Contact Me Section Styling <--------------------------*/
+#contact-me {
+    background-color: #87A7B3;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info-sec {
+    padding: 10px 20px 10px 20px;
+    height: 70%;
+    width: 50%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info-itms {
+    padding: 10px;
+    align-items: center;
+}
+
+.email-box-sec {
+    height: 80%;
+    width: 45%;
+    max-width: 500px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px none;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.form-group {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid;
+    margin-top: 5px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #EEEEEE;
+    background-color: #5463FF;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s ease background-color;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(109, 166, 185);
+}
+
+#status {
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.success {
+    background-color: rgb(161, 223, 161);
+    animation: status 4s ease forwards;
+}
+
+#status.error {
+    background-color: rgb(185, 108, 108);
+    color: white;
+    animation: status 4s ease forwards;
+}
+
+
+
+/* --------------------------> Footer Section Styling <--------------------------*/
+.footer-section {
+    background-color: #11324D;
+}
+
+.copyright-hdr {
+    color: #EEEEEE;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.copyright-parg {
+    color: #EEEEEE;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
