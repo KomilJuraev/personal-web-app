@@ -188,8 +188,44 @@ body {
 
 /* --------------------------> Contact Me Section Styling <--------------------------*/
 #project-section {
+    position: relative;
     height: 800px;
+        text-align:center;
 
+}
+
+.projects {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.personal-portfolio-1 {
+    text-align:center;
+    position: relative;
+    margin-right: 100px;
+    width: 350px;
+    height: 350px;
+}
+
+.personal-portfolio-1 > a > button{
+    width: 80%;
+    margin: 2px;
+}
+
+#personal-web-img {
+    height: 280px;
+    width: 280px;
+    padding: 5px;
+}
+
+.personal-portfolio-2 {
+    margin-left: 100px;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    /* background-color: blue; */
 }
 
 

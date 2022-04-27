@@ -19,7 +19,7 @@ function Contact() {
                     <h4 className="contact-info-itms">📲 443-825-0413</h4>
                     <h4 className="contact-info-itms">📧 K.juraev1994@gmail.com</h4>
                     <div class="gmap_canvas">
-                        <iframe width="400" height="400" src="https://maps.google.com/maps?q=Owings%20Mills&t=&z=13&ie=UTF8&iwloc=&output=embed" ></iframe>
+                        <iframe title="google-maps" width="400" height="400" src="https://maps.google.com/maps?q=Owings%20Mills&t=&z=13&ie=UTF8&iwloc=&output=embed" ></iframe>
                     </div>
                 </div>
             </div>
