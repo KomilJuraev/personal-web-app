@@ -9,7 +9,7 @@ function Portfolio() {
                     <h4>Personal WebSite</h4>
                     <img id="personal-web-img" src="./images/Screenshot 2022-04-27 174236.png" alt="" />
                     <br />
-                    <a className="personal-website" href="https://github.com/KomilJuraev/personal-web-app"><button type="button" class="btn btn-outline-primary" >github rep</button></a>
+                    <a className="personal-website" href="https://github.com/KomilJuraev/personal-web-app/tree/main"><button type="button" class="btn btn-outline-primary" >github rep</button></a>
                     <br />
                     <a className="navigate-to-project" href="#header"><button type="button" class="btn btn-outline-primary" >Navigate to Project</button></a>
                 </div>
