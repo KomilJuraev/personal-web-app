@@ -2,12 +2,6 @@ import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 
 function ContactForm() {
-  function checkForBlank() {
-    if (document.getElementById("firstName").value === "") {
-      <p>Please enter your first name</p>
-      return false;
-    }
-  }
 
   const [state, handleSubmit] = useForm("myyonrap");
   if (state.succeeded) {
@@ -37,7 +31,7 @@ function ContactForm() {
           <ValidationError prefix="Message" field="message" errors={state.errors} />
         </div>
       </fieldset>
-      <button type="submit" onClick={checkForBlank} disabled={state.submitting}>
+      <button type="submit" disabled={state.submitting}>
         Submit
       </button>
 
