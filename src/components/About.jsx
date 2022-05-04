@@ -3,7 +3,7 @@ import React from "react";
 function About() {
     return (
         <section id="about-me">
-            <div className="content-sec">
+            <div className="content-sec col-md-6">
                 <div className="intro-txt">
                     <h3 className="about-me-hdr">Hi, I'm Komil. Welcome to my WebSite.</h3>
                     <p className="about-me-paragraph">
@@ -15,7 +15,7 @@ function About() {
                     </p>
                 </div>
             </div>
-            <div className="img-sec">
+            <div className="img-sec col-md-6">
                 <img className="profile-pic" src="images/cropped.jpg" alt="profile-pic"></img>
             </div>
         </section>

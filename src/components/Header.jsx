@@ -15,13 +15,14 @@ function Header() {
         <section id="header">
             <div className="header-txt">
                 <span>I'm </span>
-                <TypeWriter
+                <span><TypeWriter
                     options={{
                         strings: ['Komil Juraev', 'Web Developer and Automation Tester'],
                         autoStart: true,
                         loop: true,
                     }}
                 />
+                </span>
             </div>
         </section>
     )
