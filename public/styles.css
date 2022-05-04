@@ -170,7 +170,7 @@ body {
 
 @media only screen and (max-width: 1100px) {
     .about-me-paragraph {
-        font-size: large;
+        font-size: 25px;
         text-align: center;
     }
 }
