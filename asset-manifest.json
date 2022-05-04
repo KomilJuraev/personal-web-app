@@ -1,10 +1,11 @@
 {
-  "files": {
-    "main.js": "/personal-web-app/static/js/main.8333fb72.js",
-    "index.html": "/personal-web-app/index.html",
-    "main.8333fb72.js.map": "/personal-web-app/static/js/main.8333fb72.js.map"
-  },
-  "entrypoints": [
-    "static/js/main.8333fb72.js"
-  ]
+  "main.js": "/personal-web-app/static/js/main.0c34a419.chunk.js",
+  "main.js.map": "/personal-web-app/static/js/main.0c34a419.chunk.js.map",
+  "static/js/1.b740295c.chunk.js": "/personal-web-app/static/js/1.b740295c.chunk.js",
+  "static/js/1.b740295c.chunk.js.map": "/personal-web-app/static/js/1.b740295c.chunk.js.map",
+  "runtime~main.js": "/personal-web-app/static/js/runtime~main.5c233878.js",
+  "runtime~main.js.map": "/personal-web-app/static/js/runtime~main.5c233878.js.map",
+  "index.html": "/personal-web-app/index.html",
+  "precache-manifest.3c9bf97810141dd3ed319e2707a30dc1.js": "/personal-web-app/precache-manifest.3c9bf97810141dd3ed319e2707a30dc1.js",
+  "service-worker.js": "/personal-web-app/service-worker.js"
 }
