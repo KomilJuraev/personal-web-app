@@ -2,6 +2,7 @@
 font-family: 'Cinzel', serif;
 font-family: 'Dancing Script', cursive;
 font-family: 'Nunito', sans-serif; */
+
 body {
     font-family: 'Nunito', sans-serif;
     background-image: url("images/pexels-photo-220182.jpeg");
@@ -9,10 +10,22 @@ body {
     padding-top: var(--nav-height);
 }
 
+@media only screen and (max-width: 850px) {
+    body {
+        background-image: none;
+    }
+}
+
 #parent-div {
     background: #EEEEEE;
     width: 80%;
     margin: auto;
+}
+
+@media only screen and (max-width: 850px) {
+    #parent-div {
+        width: 100%;
+    }
 }
 
 /* --------------------------> Navigation Bar Styling <--------------------------*/
@@ -27,6 +40,12 @@ body {
     height: var(--nav-height);
     box-shadow: 0 0 10px #00000033;
     transition: transform 0.2s;
+}
+
+@media only screen and (max-width: 850px) {
+    .nav-area {
+        width: 100%;
+    }
 }
 
 .nav-hidden {
@@ -45,6 +64,13 @@ body {
     margin: 0px 20px 0px 20px;
 }
 
+@media only screen and (max-width: 850px) {
+    .nav-links > li {
+        font-size: 15px;
+        font-family: 'Cinzel', serif;
+    }
+}
+
 .nav-links > li > a {
     color: white;
     text-decoration: none;
@@ -58,6 +84,21 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media only screen and (max-width: 850px) {
+    #header {
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .header-txt > span {
+       font-size: 30px;
+    }
 }
 
 .header-txt {
@@ -78,6 +119,17 @@ body {
     align-items: center;
 }
 
+@media only screen and (max-width: 1100px) {
+    #about-me {
+        height: 500px;
+        display: inline;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+
 .content-sec {
     height: 70%;
     width: 40%;
@@ -87,8 +139,22 @@ body {
     justify-content: center;
 }
 
+@media only screen and (max-width: 1100px) {
+    .content-sec {
+        height: 50%;
+        width: 100%;
+        float: none;
+    }
+}
+
 .intro-txt {
     padding: 50px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .intro-txt {
+        padding: 10px;  
+    }
 }
 
 .about-me-hdr {
@@ -96,12 +162,17 @@ body {
     text-align: center;
 }
 
-
-
 .about-me-paragraph {
     font-family: 'Dancing Script', cursive;
     font-size: x-large;
     text-align: center;
+}
+
+@media only screen and (max-width: 1100px) {
+    .about-me-paragraph {
+        font-size: large;
+        text-align: center;
+    }
 }
 
 .img-sec {
@@ -114,16 +185,39 @@ body {
     justify-content: center;
 }
 
+@media only screen and (max-width: 1100px) {
+    .img-sec {
+        height: 50%;
+        width: 100%;
+        float: none;
+        background-color: #EEEEEE;
+        padding-bottom: 10px;
+    }
+}
+
 .profile-pic {
     width: 400px;
     height: 400px;
     border-radius: 50%;
 }
 
-/* --------------------------> About Me Section Styling <--------------------------*/
+@media only screen and (max-width: 1100px) {
+    .profile-pic {
+        width: 350px;
+        height: 350px;
+        border-radius: 0%;
+    }
+}
+/* --------------------------> Technical Skills Section Styling <--------------------------*/
 #technical-skills {
     background-color: #87A7B3;
     padding: 20px 0px 100px 0px;
+}
+
+@media only screen and (max-width: 850px) {
+    #technical-skills {
+        padding: 0px 0px 0px 0px;
+    }
 }
 
 #technical-skills > div {
@@ -133,13 +227,26 @@ body {
     text-align: center;
 }
 
+@media only screen and (max-width: 850px) {
+    #technical-skills > div {
+        padding: 10px 10px 10px 10px;
+    }
+}
+
 .skills-layout {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 3em;
     width: 80%;
     margin: 0 auto;
-    
+}
+
+@media only screen and (max-width: 850px) {
+    .skills-layout {
+        display: inline;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 0em;
+    }
 }
 
 .skills-layout > div {
@@ -149,8 +256,31 @@ body {
     position: relative;
 }
 
+@media only screen and (max-width: 850px) {
+    .skills-layout > div {
+        border: solid;
+        height: 300px;
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .skills-layout > .auto-test-skls {
+        border: solid;
+        height: 550px;
+    }
+}
+
 .skills-layout > div:hover {
     border-color: yellow;
+}
+
+@media only screen and (max-width: 850px) {
+    .skills-layout > div:hover {
+        border-color: black;
+    }
 }
 
 .skill-header {
@@ -186,12 +316,19 @@ body {
 }
 
 
-/* --------------------------> Contact Me Section Styling <--------------------------*/
+/* --------------------------> Project Me Section Styling <--------------------------*/
 #project-section {
     position: relative;
     height: 800px;
-        text-align:center;
+    text-align:center;
+}
 
+@media only screen and (max-width: 850px) {
+    #project-section {
+        position: relative;
+        height: 600px;
+        text-align:center;
+    }
 }
 
 .projects {
@@ -199,6 +336,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media only screen and (max-width: 850px) {
+   .projects {
+        display: inline;
+    }
 }
 
 .personal-portfolio-1 {
@@ -209,15 +352,37 @@ body {
     height: 350px;
 }
 
+@media only screen and (max-width: 850px) {
+   .personal-portfolio-1 {
+        text-align:center;
+        width: 100%;
+    }
+}
+
 .personal-portfolio-1 > a > button{
     width: 80%;
     margin: 2px;
+}
+
+@media only screen and (max-width: 850px) {
+   .personal-portfolio-1 > a > button {
+        width: 40%;
+        height: 35px;
+    }
 }
 
 #personal-web-img {
     height: 280px;
     width: 280px;
     padding: 5px;
+}
+
+@media only screen and (max-width: 850px) {
+   #personal-web-img {
+        height: 200px;
+        width: 200px;
+        padding: 2px;
+    }
 }
 
 .personal-portfolio-2 {
@@ -238,6 +403,14 @@ body {
     align-items: center;
 }
 
+@media only screen and (max-width: 950px) {
+    #contact-me {
+        background-color: #87A7B3;
+        height: auto;
+        display: grid;
+    }
+}
+
 .contact-info-sec {
     padding: 10px 20px 10px 20px;
     height: 70%;
@@ -248,9 +421,25 @@ body {
     justify-content: center;
 }
 
+@media only screen and (max-width: 950px) {
+    .contact-info-sec {
+        padding: auto;
+        height: auto;
+        display: inline;
+        height: auto;
+        width: 100%;
+    }
+}
+
 .contact-info-itms {
     padding: 10px;
     align-items: center;
+}
+
+@media only screen and (max-width: 950px) {
+    .contact-info-itms {
+        padding: 2px;
+    }
 }
 
 .email-box-sec {
@@ -269,10 +458,47 @@ body {
     border-radius: 8px;
 }
 
+@media only screen and (max-width: 950px) {
+    .email-box-sec {
+        padding: auto;
+        height: auto;
+        display: inline;
+        height: auto;
+        width: 100%;
+    }
+}
+
 .form-group {
     width: 100%;
     margin-top: 20px;
     font-size: 20px
+}
+
+@media only screen and (max-width: 950px) {
+    .form-group {
+        font-size: 15px;
+        margin-top: 20px;
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .form-group > label {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .form-group > input {
+        float: right;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    #message {
+        float: right;
+    }
 }
 
 .form-group input, 
@@ -282,6 +508,16 @@ body {
     font-size: 18px;
     border: 1px solid;
     margin-top: 5px;
+}
+
+@media only screen and (max-width: 950px) {
+    .form-group input, 
+    .form-group textarea {  
+        padding: 8px; 
+        width: 80%;     
+        font-size: 15px;
+
+    }
 }
 
 button[type="submit"] {
@@ -297,6 +533,15 @@ button[type="submit"] {
     text-align: center;
     cursor: pointer;
     transition: .3s ease background-color;
+}
+
+
+@media only screen and (max-width: 850px) {
+    button[type="submit"] {
+        width: 80%;
+        float: right;
+        margin: 10px 0px 10px 0px;
+    }
 }
 
 button[type="submit"]:hover {
@@ -336,8 +581,20 @@ button[type="submit"]:hover {
     padding: 10px 0px 10px 0px;
 }
 
+@media only screen and (max-width: 850px) {
+    .copyright-hdr {
+        padding: 5px 0px 5px 0px;
+    }
+}
+
 .copyright-parg {
     color: #EEEEEE;
     text-align: center;
     padding: 10px 0px 10px 0px;
+}
+
+@media only screen and (max-width: 850px) {
+    .copyright-parg {
+        padding: 5px 0px 5px 0px;
+    }
 }
