@@ -10,7 +10,7 @@ body {
     padding-top: var(--nav-height);
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1100px) {
     body {
         background-image: none;
     }
@@ -22,7 +22,7 @@ body {
     margin: auto;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1100px) {
     #parent-div {
         width: 100%;
     }
@@ -42,7 +42,7 @@ body {
     transition: transform 0.2s;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1100px) {
     .nav-area {
         width: 100%;
     }
@@ -64,7 +64,7 @@ body {
     margin: 0px 20px 0px 20px;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1100px) {
     .nav-links > li {
         font-size: 15px;
         font-family: 'Cinzel', serif;
@@ -86,7 +86,7 @@ body {
     background-size: cover;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1100px) {
     #header {
         height: 500px;
         background-position: center;
@@ -95,7 +95,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1100px) {
     .header-txt > span {
        font-size: 30px;
     }
@@ -170,7 +170,7 @@ body {
 
 @media only screen and (max-width: 1100px) {
     .about-me-paragraph {
-        font-size: large;
+        font-size: 25px;
         text-align: center;
     }
 }
@@ -214,7 +214,7 @@ body {
     padding: 20px 0px 100px 0px;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1100px) {
     #technical-skills {
         padding: 0px 0px 0px 0px;
     }
@@ -227,7 +227,7 @@ body {
     text-align: center;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1100px) {
     #technical-skills > div {
         padding: 10px 10px 10px 10px;
     }
@@ -241,7 +241,7 @@ body {
     margin: 0 auto;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1100px) {
     .skills-layout {
         display: inline;
         grid-template-columns: 1fr 1fr 1fr;
@@ -256,7 +256,7 @@ body {
     position: relative;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1100px) {
     .skills-layout > div {
         border: solid;
         height: 300px;
@@ -266,7 +266,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1100px) {
     .skills-layout > .auto-test-skls {
         border: solid;
         height: 550px;
@@ -277,7 +277,7 @@ body {
     border-color: yellow;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1100px) {
     .skills-layout > div:hover {
         border-color: black;
     }
@@ -323,7 +323,7 @@ body {
     text-align:center;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1100px) {
     #project-section {
         position: relative;
         height: 600px;
@@ -338,7 +338,7 @@ body {
     justify-content: center;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1100px) {
    .projects {
         display: inline;
     }
@@ -352,7 +352,7 @@ body {
     height: 350px;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1100px) {
    .personal-portfolio-1 {
         text-align:center;
         width: 100%;
@@ -364,7 +364,7 @@ body {
     margin: 2px;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1100px) {
    .personal-portfolio-1 > a > button {
         width: 40%;
         height: 35px;
@@ -377,7 +377,7 @@ body {
     padding: 5px;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1100px) {
    #personal-web-img {
         height: 200px;
         width: 200px;
@@ -403,7 +403,7 @@ body {
     align-items: center;
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1100px) {
     #contact-me {
         background-color: #87A7B3;
         height: auto;
@@ -421,7 +421,7 @@ body {
     justify-content: center;
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1100px) {
     .contact-info-sec {
         padding: auto;
         height: auto;
@@ -436,7 +436,7 @@ body {
     align-items: center;
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1100px) {
     .contact-info-itms {
         padding: 2px;
     }
@@ -458,7 +458,7 @@ body {
     border-radius: 8px;
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1100px) {
     .email-box-sec {
         padding: auto;
         height: auto;
@@ -474,7 +474,7 @@ body {
     font-size: 20px
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1100px) {
     .form-group {
         font-size: 15px;
         margin-top: 20px;
@@ -482,20 +482,20 @@ body {
     }
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1100px) {
     .form-group > label {
         font-size: 15px;
         margin-top: 10px;
     }
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1100px) {
     .form-group > input {
         float: right;
     }
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1100px) {
     #message {
         float: right;
     }
@@ -510,7 +510,7 @@ body {
     margin-top: 5px;
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1100px) {
     .form-group input, 
     .form-group textarea {  
         padding: 8px; 
@@ -536,7 +536,7 @@ button[type="submit"] {
 }
 
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1100px) {
     button[type="submit"] {
         width: 80%;
         float: right;
@@ -581,7 +581,7 @@ button[type="submit"]:hover {
     padding: 10px 0px 10px 0px;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1100px) {
     .copyright-hdr {
         padding: 5px 0px 5px 0px;
     }
@@ -593,7 +593,7 @@ button[type="submit"]:hover {
     padding: 10px 0px 10px 0px;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1100px) {
     .copyright-parg {
         padding: 5px 0px 5px 0px;
     }
